@@ -1,6 +1,6 @@
 export const products= [{
     id : 1,
-    image : 'images/socks.jpg',
+    image : '/images/socks.jpg',
     name :'Sockss' ,
     rating:{
         img :'/images/star.png',
