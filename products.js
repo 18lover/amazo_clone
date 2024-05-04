@@ -1,6 +1,6 @@
 export const products= [{
     id : 1,
-    image : 'images/socks.jpg',
+    image : '/images/socks.jpg',
     name :'Socks' ,
     rating:{
         img :'/images/star.png',
@@ -9,7 +9,7 @@ export const products= [{
     price : 1090,
 },{
     id : 2,
-    image : 'images/football.png',
+    image : '/images/football.png',
     name : 'Football' ,
     rating:{
         img :'/images/star.png',
@@ -19,7 +19,7 @@ export const products= [{
 },
 {
     id : 3 ,
-    image :'images/shirt.avif',
+    image :'/images/shirt.avif',
     name : 'Shirt',
     rating:{
         img : 'images/star.png',
