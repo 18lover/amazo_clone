@@ -10,7 +10,7 @@ products.forEach((product)=>{
     <div class="col-md-4 col-xl-3 col-sm-6  mt-5 mb-3 col-12 " data-aos="fade-right" data-aos-duration="600">
         <div class="container bg-white p-0">
             <div class="image" data-aos="flip-up" data-aos-duration="900">
-                <img class="image img-flui card-image" src="${product.image}">
+                <img class="image img-flui card-image" src=".${product.image}">
             </div>
             <hr class="text-primary m-0">
             <div class="info px-2 " data-aos="fade-right" data-aos-duration="600">
