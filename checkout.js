@@ -36,7 +36,7 @@ function allHtmlCheckoutPage()
     
         <div class="row image-info">
             <div class="col-6 col-lg-4" >
-                <img src="${matchingItem.image}" alt="" class="card-image img-fluid">
+                <img src=".${matchingItem.image}" alt="" class="card-image img-fluid">
             </div>
             <div class="card-info d-flex flex-column col-6 col-lg-3" >
                 <p class="fw-bolder">${matchingItem.name}</p>
