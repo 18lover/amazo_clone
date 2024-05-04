@@ -1,5 +1,5 @@
-import {card,addToCart,cartQuantity} from './card.js';
-import {products} from './products.js';
+import {card,addToCart,cartQuantity} from '/card.js';
+import {products} from '/products.js';
 
 AOS.init();
 document.querySelector(".count").innerHTML=cartQuantity();
