@@ -22,7 +22,7 @@ export const products= [{
     image :'/images/shirt.avif',
     name : 'Shirt',
     rating:{
-        img : 'images/star.png',
+        img : '/images/star.png',
         response : 321,
     },
     price:432,
