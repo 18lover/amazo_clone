@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   </head>
+<body>
+    <div class="container-fluid header d-flex">
+        <div class="row">
+            <div class="col-2 d-none d-md-block">
+            <a class="navbar-brand" href="#">
+              <img src="images/amazon-logo.png" alt="amazon-logo" width="100%" height="24" class="d-inline-block align-text-top logo">
+            </a>
+            </div>
+            <div class="middle col-6 col-md-8 col-sm-8 ">
+                <form class="d-flex search-bar">
+                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success bg-warning search-button " type="submit"><img src="images/search.png" class ="img-fluid img-search"></button>
+                  </form>
+            </div>
+            <div class="left-section col-6 col-sm-4 col-md-2">
+                <div class="row">
+                    <div class="col-7 col-sm-6 return cart"> 
+                        <a href="checkout.html" class="cart">
+                         <p class="count ">0</p>
+                         <img src="/images/shopping-cart (1).png" alt="" class="img-fluid img-cart">
+                         <p class="cart-p">cart</p>
+                     </a>
+                 </div>
+                     <div class="return col-5 col-sm-6">
+                         <p class="reandord fw-light fs-md-2 fs-5">return</p><br>
+                         <p  class="reandord fw-bold">& Orders</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid product d-flex justify-content-center p-0 m-0" >
+        <div class="row data">
+            <!-- ALL PRODUCTS CODE IN BELOW LINE -->
+          <!-- <div class="col-md-4 col-xl-3 col-sm-6 container col-12">
+            <div class="image">
+                <img class="image img-fluid card-image" src="/images/socks.jpg">
+            </div>
+            <div class="card-name mt-3">
+                <p class="font mb-0 mt-1">Socks</p>
+            </div>
+            <div class="rating mt-3 m-0  row">
+                <img src="images/star.png" alt="rating" class="col-8 p-0 img-rating">
+                <p class="col">87</p>
+            </div>
+            <div class="price fw-bolder">
+                $10.90
+            </div>
+            <div class="mt-2">
+                <select class="rounded-pill select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="success">
+                <p>Success</p>
+            </div>
+                <button type="button" class="btn bg-warning rounded-pill addtobtn mb-2">Add to card</button>
+        </div>
+
+        <div class="col-md-4 col-xl-3 col-sm-6 container col-12">
+            <div class="image">
+                <img class="img-fluid card-image" src="/images/football.png">
+            </div>
+            <div class="card-name mt-3">
+                <p class="font mb-0 mt-1">Football</p>
+            </div>
+            <div class="rating mt-3 m-0  row">
+                <img src="images/star.png" alt="rating" class="col-8 p-0 img-rating">
+                <p class="col">100 </p>
+            </div>
+            <div class="price fw-bolder">
+                $100.90
+            </div>
+            <div class="mt-2">
+                <select class="rounded-pill select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="success">
+                <p>Success</p>
+            </div>
+                <button type="button" class="btn bg-warning rounded-pill addtobtn mb-2">Add to card</button>
+        </div>
+
+        <div class="col-md-4 col-xl-3 col-sm-6 container col-12">
+            <div class="image">
+                <img class="img-fluid card-image" src="/images/shirt.avif">
+            </div>
+            <div class="card-name mt-3">
+                <p class="font mb-0 mt-1">shirt</p>
+            </div>
+            <div class="rating mt-3 m-0  row">
+                <img src="images/star.png" alt="rating" class="col-8 p-0 img-rating">
+                <p class="col">100 </p>
+            </div>
+            <div class="price fw-bolder">
+                $100.90
+            </div>
+            <div class="mt-2">
+                <select class="rounded-pill select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="success">
+                <p>Success</p>
+            </div>
+                <button type="button" class="btn bg-warning rounded-pill addtobtn mb-2">Add to card</button>
+        </div>
+
+        <div class="col-md-4 col-xl-3 col-sm-6 container col-12">
+            <div class="image">
+                <img class="img-fluid card-image" src="/images/phone.jpg">
+            </div>
+            <div class="card-name mt-3">
+                <p class="font mb-0 mt-1">Mobile</p>
+            </div>
+            <div class="rating mt-3 m-0  row">
+                <img src="images/star.png" alt="rating" class="col-8 p-0 img-rating">
+                <p class="col">100 </p>
+            </div>
+            <div class="price fw-bolder">
+                $100.90
+            </div>
+            <div class="mt-2">
+                <select class="rounded-pill select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="success">
+                <p>Success</p>
+            </div>
+                <button type="button" class="btn bg-warning rounded-pill addtobtn mb-2">Add to card</button>
+        </div>
+        <div class="col">
+            hiii
+        </div> -->
+        </div>
+        <!-- generated above code using javascript -->
+      </div>
+      
+      
+      <footer class="footer">
+        <div class="container-fluid text-center">
+            &#9786;&#9786;&#9786;&#9786;
+        </div>
+      </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script type="module" src="index.js"></script>
+</body>
+</html>
