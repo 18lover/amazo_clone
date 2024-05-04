@@ -1,7 +1,7 @@
 export const products= [{
     id : 1,
     image :'/images/socks.jpg',
-    name :'Sockss' ,
+    name :'Socks' ,
     rating:{
         img :'/images/star.png',
         response : 87,
